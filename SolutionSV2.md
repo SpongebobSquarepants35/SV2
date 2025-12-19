@@ -220,13 +220,15 @@ Beantworten Sie die folgenden Fragen basierend auf Ihren Beobachtungen aus Schri
 1. Eingangssignal: Squarwave, Ausgangssignal: Sinwave
 2. Eingang:
 Berechnete Harmonische:
+
 | Harmonische | Frequenz  |
 |-------------|-----------|
 | 1           | 1,18 MHz  |
-| 3           | 3,54 Mhz  |
-| 5           | 5,90 Mhz  |
-| 7           | 8,26 Mhz  |
-| 9           | 10,62 Mhz |
+| 3           | 3,54 MHz  |
+| 5           | 5,90 MHz  |
+| 7           | 8,26 MHz  |
+| 9           | 10,62 MHz |
+
 
 3. bei 1,18Mhz Squarewave ist nichtmehr die 3. Harmonische und höher sichtbar im Ausgangssignal nurnoch die grundfrquenz 1,18Mhz
 4. Die höheren Harmonischen werden herausgefiltert und nur die erste Harmonische durchgelassen. Das Eingangssignal Squarwave mit höheren harmonischen wird zu einem Siunusförmigen Ausgangssingnal mit nur der 1. Harmonischen. 
