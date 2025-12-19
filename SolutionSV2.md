@@ -218,7 +218,8 @@ Beantworten Sie die folgenden Fragen basierend auf Ihren Beobachtungen aus Schri
 
 ### Erklärung
 1. Eingangssignal: Squarwave, Ausgangssignal: Sinwave
-2. Eingang 
+2. Eingang:
+Berechnete Harmonische:
 | Harmonische | Frequenz  |
 |-------------|-----------|
 | 1           | 1,18 MHz  |
