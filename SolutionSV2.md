@@ -181,3 +181,51 @@ LC-Bandpass hat hohe Güte um f0​.
 Filter blockiert höhere Harmonische die weit außerhalb der Resonanz liegen.
 
 Fourier: Rechteckwellen bestehen aus einer Summe von Sinuswellen. der Bandpass lässt nur die Grundschwingung durch damit liegt am Ausgang ≈ Sinus an.
+
+# Task 6
+## 1
+1. Stellen Sie die Quelle auf "Sine" (Sinus), 5V Amplitude.
+2. Führen Sie eine AC-Analyse ("Frequency"-Plot) am Ausgang (V) durch.
+3. Finden Sie die Frequenz, bei der die Schaltung ihre stärkste Resonanz (größte Verstärkung) zeigt.
+
+### Erklärung
+3. ~781kHz
+
+## 2
+1. Ändern Sie die Quelle zu einer "Square Wave" (Rechteck), 5V Amplitude.
+2. Stellen Sie die Grundfrequenz der Rechteckwelle auf 1,18 MHz ein. (Dies ist 1/3 der Resonanzfrequenz aus Schritt 1).
+3. Betrachten Sie den Eingang und den Ausgang (V) im Zeitbereich (Scope).
+4. Betrachten Sie den Eingang und den Ausgang (V) im Frequenzbereich (FFT / "Frequency").
+
+### Erklärung
+3. Spannung ist höher als die Eingangsspannung von 5V = 6.868V
+4. Die Frequenz ist die Gleiche als die Eingangsfrequenz von 1,18 MHz aber die hohen Harmonischen sind stark abgeschwächt. Daraus folgt eine Sinusförmige Welle.
+
+## 3 Variation (Optional)
+1. Ändern Sie die Grundfrequenz der Rechteckwelle auf 712 kHz. (Dies ist 1/5 der Resonanzfrequenz).
+2. Beobachten Sie erneut das Spektrum am Ausgang.
+
+### Erklärung
+2. Die Spannung Ausgangsspannung ist nochmals höher als in Schritt 2 und die erste harmonische Frequenz ist immer noch gleich aber es ist eine höhere harmonische frequenz in der Ausgangsfrequenz dies es zu einer Unförmigen Sinuswelle macht.
+
+## Auswertung 
+Beantworten Sie die folgenden Fragen basierend auf Ihren Beobachtungen aus Schritt 2:
+
+1. Zeitbereich: Vergleichen Sie das Eingangs- und Ausgangssignal. Welche Form hat das Ausgangssignal? Welche Frequenz hat es (grob gemessen)?
+2. Frequenzbereich (Eingang): Beschreiben Sie das Spektrum der Rechteckwelle, das Sie sehen. Welche Harmonischen sind vorhanden (1., 3., 5. ...)?
+3. Frequenzbereich (Ausgang): Beschreiben Sie das Spektrum am Ausgang. Was ist mit der Grundschwingung (1,18 MHz) passiert? Was ist mit der 3. Harmonischen (3,56 MHz) passiert?
+4. Erklärung: Fassen Sie zusammen, was der Filter mit dem Rechtecksignal gemacht hat und warum das Ausgangssignal so aussieht, wie es aussieht.
+
+### Erklärung
+1. Eingangssignal: Squarwave, Ausgangssignal: Sinwave
+2. Eingang 
+| Harmonische | Frequenz  |
+|-------------|-----------|
+| 1           | 1,18 MHz  |
+| 3           | 3,54 Mhz  |
+| 5           | 5,90 Mhz  |
+| 7           | 8,26 Mhz  |
+| 9           | 10,62 Mhz |
+
+3. bei 1,18Mhz Squarewave ist nichtmehr die 3. Harmonische und höher sichtbar im Ausgangssignal nurnoch die grundfrquenz 1,18Mhz
+4. Die höheren Harmonischen werden herausgefiltert und nur die erste Harmonische durchgelassen. Das Eingangssignal Squarwave mit höheren harmonischen wird zu einem Siunusförmigen Ausgangssingnal mit nur der 1. Harmonischen. 
